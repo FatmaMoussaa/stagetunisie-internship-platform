@@ -1,0 +1,21 @@
+# Identifiants (jamais versionnés)
+config.php
+config_mail.php
+
+# Fichiers déposés par les utilisateurs (CV, lettres, logos...)
+uploads/*
+!uploads/.gitkeep
+images/logos/17*
+
+# PDF générés / personnels
+*.pdf
+
+# Dumps SQL avec données (le schéma propre est autorisé ci-dessous)
+*.sql
+!database/schema.sql
+
+# Éditeur / système
+.vscode/
+.DS_Store
+Thumbs.db
+adminphoto.webp
